@@ -1,18 +1,12 @@
 ---
 layout: page
-title: About
+title: Chirps
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! I'm Man Keat, an aspiring Computer Science student with a buffet spread of pursuits. My passions are in using Tech for Good and I currently sharpen my toolbox by building websites, trawling through academic papers of machine learning models and by being involved in team-oriented environments. My other interests include number theory, education, historical linguistics and I also have a romantic fascination in astronomy and cosmology. All these are the intellectual pursuits of *this* student that is single-handedly held together by my avid love for coffee.
+ 
+Now, give the pot a good stir and you get a restless ~~nerd~~ student eager to talk your ears off for 2 hours about anything under the sun (while sipping on some coffee of course!). This mini-site is meant to safe-keep my ramblings, thoughts and occasional reviews on recent happenings, but also to provide a glimpse of my interests.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I can be contacted through my email <uselesstaco14@gmail.com>, or connect with me via [LinkedIn](https://www.linkedin.com/in/hu-man-keat-6689a81b3) if that's your cup of coffee!
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
