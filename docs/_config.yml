@@ -21,9 +21,9 @@
 title: Blurbs from a Little Birdle
 email: uselesstaco14@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A haphazardly created site to safe-keep my 2 cents, book reviews and other resources. Also a page about me!
+  Some Thoughts
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://potatostealer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  PotatoStealer
 
 # Build settings
