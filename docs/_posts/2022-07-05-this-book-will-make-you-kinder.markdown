@@ -9,7 +9,7 @@ image: true
 
 This book couldn't have been more timely, in terms of its relevance in the happenings around the world, and also in terms of when I got my hands on it: fresh off the shelves at Kinokuniya! I probably wouldn't have gotten this book if not for the warm hug from this book's cover, and since I'm a sucker for clever designs and colors, there's no way I'd give this a pass. I digress.
 
-![missing]({{ "/assets/images/cover-hjgarrett.jpg" | absolute_url }})
+![cover-hjgarrett]({{ "/assets/images/cover-hjgarrett.jpg" | absolute_url }})
 
 If the book cover is any form of a precursor to what follows, it perfectly encompasses the witty insights that are accompanied by Garrett's cleverly-inserted comics. Indeed, this insightful book sets out to explore empathy in its relevance in modern living, and answers the two questions that Garrett claims are central to our understanding on empathy:
 
