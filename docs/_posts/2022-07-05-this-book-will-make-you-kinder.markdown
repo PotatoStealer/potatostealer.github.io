@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Review - This Book Will Make You Kinder: An Empathy Handbook"
+author: Hu Man Keat
 date:   2022-07-05
-categories: book
+categories: books
 image: true
+book-author: Henry James Garrett
+author-page: https://www.henryjgarrett.com/
 ---
-> Book by Henry James Garrett (<https://www.henryjgarrett.com/>)
-
 This book couldn't have been more timely, in terms of its relevance in the happenings around the world, and also in terms of when I got my hands on it: fresh off the shelves at Kinokuniya! I probably wouldn't have gotten this book if not for the warm hug from this book's cover, and since I'm a sucker for clever designs and colors, there's no way I'd give this a pass. I digress.
 
 ![cover-hjgarrett]({{ "/assets/images/cover-hjgarrett.jpg" | absolute_url }})
