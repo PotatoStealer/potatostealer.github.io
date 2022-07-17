@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chirps
+title: About Me
 permalink: /about/
 ---
 
