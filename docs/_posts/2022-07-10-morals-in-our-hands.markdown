@@ -17,7 +17,7 @@ I initially started off this post _not_ to comment on the ruling itself but to r
 
 Back to the matter, staying true to it's name as the land of the free, the people have all but forgiven the Court's regressive decision: protests, anger, hatred, activism were the norm, but it seemed to reach new heights as people worldwide tuned in to the horror movie now screening in the States. This morning I almost spit out a mouthful of my breakfast coffee fix when I chanced upon this headline.
 
-![no dinner?]({{ "/assets/images/brett.PNG" | absolute_url }})
+![J Kavanaugh couldn't finish his dinner]({{ "/assets/images/brett.PNG" | absolute_url }})
 
 Of course someone from the Roberts Court just had to be messed with. More humourous was the statement by the Morton's restaurant that Justice Kavanaugh was at when he was rudely disturbed from enjoying his dinner: "Politics, regardless of your side or views, should not trample the freedom at play of the right to congregate and eat dinner. There is a time and place for everything. Disturbing the dinner of all of our customers was an act of selfishness and void of decency".
 
