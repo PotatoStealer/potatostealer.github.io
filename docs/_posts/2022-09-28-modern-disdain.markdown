@@ -2,7 +2,7 @@
 layout: post
 title:  "Opinion - Modern disdain"
 author: Hu Man Keat
-date:   2022-09-29
+date:   2022-09-28
 categories: opinions
 image: false
 description: What are we chasing anyways?
