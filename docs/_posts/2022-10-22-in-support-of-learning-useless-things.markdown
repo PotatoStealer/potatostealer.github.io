@@ -2,7 +2,7 @@
 layout: post
 title:  "Opinion - In Support of Learning Useless Things"
 author: Hu Man Keat
-date:   2022-10-22
+date:   2022-10-21
 categories: opinions
 image: false
 description: The more useless the better..?
