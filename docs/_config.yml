@@ -30,7 +30,6 @@ github_username:  PotatoStealer
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-spaceship
 
 timezone: Asia/Singapore
 # Exclude from processing.
