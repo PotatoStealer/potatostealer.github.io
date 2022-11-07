@@ -101,7 +101,7 @@ My personal grade for this problem: $5/7$. It has a very simple statement and th
 ## D1/2 Geassy and Classy Analysis
 > A function $\psi \colon$ ${\mathbb Z} \to {\mathbb Z}$ is said to be zero-requiem if for any positive integer $n$ and any integers $a_1$, $\ldots$, $a_n$ (not necessarily distinct), the sums $a_1 + a_2 + \dots + a_n$ and $\psi(a_1) + \psi(a_2) + \dots + \psi(a_n)$ are not both zero.
 
-Let $f$ and $g$ be two zero-requiem functions for which $f \circ g$ and $g \circ f$ are both the identity function (that is, $f$ and $g$ are mutually inverse bijections). Given that $f+g$ is not a zero-requiem function, prove that $f \circ f$ and $g \circ g$ are both zero-requiem.
+> Let $f$ and $g$ be two zero-requiem functions for which $f \circ g$ and $g \circ f$ are both the identity function (that is, $f$ and $g$ are mutually inverse bijections). Given that $f+g$ is not a zero-requiem function, prove that $f \circ f$ and $g \circ g$ are both zero-requiem.
 
 > Sutanay Bhattacharya
 
