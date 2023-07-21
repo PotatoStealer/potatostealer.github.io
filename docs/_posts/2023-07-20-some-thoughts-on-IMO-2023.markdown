@@ -16,16 +16,16 @@ It's that time of the year where I get to pull out my tinfoil hat as a wannabe-c
 I did this in my head while in a meeting, texting a friend, and working on NanoBlocks, so... no thoughts.
 
 **1. Induction**
-We have $d_{k-2}|n+d_{k-1}$ so $d_{k-2}|d_{k-1}$. Since divisors come in pairs, i.e. $d_id_{k+1-i}=n$, so $d_2|d_3$ and $d_2|d_3+d_4$. This gives $d_2|d_4$, so $d_{k-3}|d_{k-1}$, so $d_{k-3}|d_{k-2}$ as well.
+We have $d_{k-2}\|n+d_{k-1}$ so $d_{k-2}\|d_{k-1}$. Since divisors come in pairs, i.e. $d_id_{k+1-i}=n$, so $d_2\|d_3$ and $d_2\|d_3+d_4$. This gives $d_2\|d_4$, so $d_{k-3}\|d_{k-1}$, so $d_{k-3}\|d_{k-2}$ as well.
 
-By induction, $1=d_1|d_2|\cdots|d_k=n$ whence $n=p^{k-1}$.
+By induction, $1=d_1\|d_2\|\cdots\|d_k=n$ whence $n=p^{k-1}$.
 
 **2. Proof by contradiction**
-If you tried to induct downwards as in approach 1, you may run into a roadblock. Again, $d_{k-3}|d_{k-2}+d_{k-1}$. This motivates defining $p^m|d_{k-3}$. If $d_{k-3}|d_{k-2}$, we are done. Otherwise, $p^m$ necessarily appears elsewhere. Let $d_{j}=p^m$ so $d_{k+1-j}=\frac{n}{p^m}$, whence there is another prime $q|n$.
+If you tried to induct downwards as in approach 1, you may run into a roadblock. Again, $d_{k-3}\|d_{k-2}+d_{k-1}$. This motivates defining $p^m\|d_{k-3}$. If $d_{k-3}\|d_{k-2}$, we are done. Otherwise, $p^m$ necessarily appears elsewhere. Let $d_{j}=p^m$ so $d_{k+1-j}=\frac{n}{p^m}$, whence there is another prime $q\|n$.
 
 Suppose $n$ has at least two distinct prime factors and let $p$ be the smallest such prime, $q$ be the second smallest. Let $m$ be the smallest integer such that $q>p^m$, then
 
-$$\frac{n}{q}|\frac{n}{p^{m-1}}+\frac{n}{p^m}=\frac{n}{p^m}(p+1),$$
+$$\frac{n}{q}\|\frac{n}{p^{m-1}}+\frac{n}{p^m}=\frac{n}{p^m}(p+1),$$
 
 so
 
@@ -48,6 +48,7 @@ I did this in about 15-ish minutes after the my meeting ended.
 Define 
 
 $$c_n=x_1+x_2+\cdots+x_n,\;r_n=\frac{1}{x_1}+\frac{1}{x_2}+\cdots+\frac{1}{x_n},$$
+
 then by Cauchy,
 
 $$a_{n+1}^2=(c_n+x_{n+1})\left(r_n+\frac{1}{x_{n+1}}\right)\geq(a_n+1)^2,$$
@@ -60,17 +61,19 @@ I then investigated the odd equality case anyway. Certainly if the sequence need
 
 $$x_{n+2}^2=\frac{c_{n+1}}{r_{n+1}}=\frac{c_n+x_{n+1}}{r_n+\frac{1}{x_{n+1}}}=\frac{c_n+\sqrt{\frac{c_n}{r_n}}}{r_n+\sqrt{\frac{r_n}{c_n}}}=\frac{c_n}{r_n}=x_{n+1}^2.$$
 
-Aha! It turns out that we can't have consecutive gaps be equal to 1. Now I had to decide which relation is useful: whether focusing on successive gaps, or on $a_{n+2}-a_n > 2$. Given that this was an IMO problem, I took a leap of faith and chose the latter, so $a_{n+2}-a_n\geq 3$.
+It turns out that we can't have consecutive gaps be equal to 1. Now I had to decide which relation is useful: whether focusing on successive gaps, or on $a_{n+2}-a_n > 2$. Given that this was an IMO problem, I took a leap of faith and chose the latter, so $a_{n+2}-a_n\geq 3$.
 
 Of course, I do a sanity check first. Starting from $a_1=1$, if the sequence goes $1,4,7,10,...$, then $a_n$=1+3(n-1). Yes, equality cases exist!
 
 Oops, now to prove what was actually asked:
+
 $$a_{2023}\geq a_{2021}+3\geq a_{2019}+6\geq\cdots\geq a_1+1011\cdot3=3034.$$
 
 # D1/3 Rabbits? In my pigeonhole?
 > For each integer $k\geq 2$, determine all infinite sequences of positive integers $a_1,a_2\cdots$ for which there exists a polynomial $P$ of the form $P(x)=x^k+c_{k-1}x^{k-1}+\cdots+c_1x+c_0$, where $c_0,c_1,c_{k-1}$ are non-negative integers, such that
 >
 > $$P(a_n)=a_{n+1}a_{n+2}\cdots a_{n+k}$$
+> 
 > for every integer $n\geq1$.
 
 ## Thoughts and Writeup
@@ -102,7 +105,9 @@ For the monic condition, I played with sequences of prime powers (just as in P1)
 I still have no clue what to do: it's pretty strange that the problem gives you no clue what ${a_n}$ is, so I tried to grasp at straws. We know that ${a_n}$ cannot be periodic, so it's necessary for ${a_n}$ to be non-decreasing (but not necessarily strictly increasing).
 
 Let $n$ be such that $a_n$ is the least element in ${a_n}$, and that $a_{n+1}<a_n$, so
+
 $$a_{n+k+1}P(a_n)=a_{n+1}\cdots a_{n+k+1}=a_nP(a_{n+1}) < a_nP(a_n)$$
+
 which is a contradiction.
 
 **Observation 3. ${a_n}$ does not have ADHD**
@@ -110,6 +115,7 @@ which is a contradiction.
 The next natural thing to ask is how does ${a_n}$ grow? I first fix $k$ to be large. Consider this "wild" case when ${a_n}$ is erratic, meaning suppose that the sequence remains constant (and somewhat small) at the start, then explodes, then remains constant again. Clearly for small $n$, $P(x)$ cannot catch up to the right-hand side. For a tractable progress, I try to show that ${a_n}$ cannot exhibit this constant behaviour, that is, ${a_n}$ cannot ever sit "too still".
 
 From observation 2, we have 
+
 $$a_{n+1}^k\leq a_{n+1}\cdots a_{n+k}=P(a_n) \iff a_{n+1}-a_n=P(a_n)^{\frac{1}{k}}-a_n.$$
 
 This is cleanly bounded above by some integer $C$. Certainly, $P(a_n)<a_nP(1)$, so for sufficiently large ${c_k}$, there exists such a $C$. 
@@ -121,24 +127,30 @@ Okay but I messed this up somewhere, I meant to show that ${a_n}$ cannot sit sti
 It's quite amazing that we've gotten so far given just 3 seemingly weak conditions. If equality holds in observation 3, then ${a_n}$ is an arithmetic progression. But alas, we still don't have equality.
 
 I stared at the problem statement again and I'm finally reminded that $n$ needs to run over all integers. I now look at the *difference set*:
+
 $$D_n=\left\{a_{n+1}-a_n,\;a_{n+2}-a_n,\;\cdots,\;a_{n+k}-a_n\right\}.$$
 
 Since the differences are bounded, there are finitely many such sets (at most $C^k$ of them) as $n$ runs. In particular, there exists one difference set that occurs infinitely many times as $n$ runs, by the Pigeonhole Principle(!!!!!).
 
 Call this difference set (really it's a collection) $D=\{d_1,d_2,\cdots,d_k\}$ and write
+
 $$P(a_n)=(a_n+d_1)(a_n+d_2)\cdots(a_n+d_k),$$
+
 $$P(a_n+d_1)=(a_n+d_2)(a_n+d_3)\cdots(a_n+d_{k+1}).$$
 
 This is a pair of eqquations that hold for infinitely many $n$, and so is a polynomial identity. To wit,
+
 $$P(x)=(x+d_1)(x+d_2)\cdots(x+d_k).$$
 
 The key finishing touch is that the other difference sets actually occur only finitely many times. Otherwise we discover another way to factorise $P(x)$, which is not possible.
 
 Hence, for sufficiently large $n$, we have $D_n=D$. Finally, 
 $a_{n+t}=a_n+d_t.$ By induction, $d_t=td_1$, i.e. $a_{n+1}-a_n=d_1$ for sufficiently large $n\geq N$. We now have
+
 $$P(x)=(x+d_1)^k.$$
 
 Now we induct downwards: we have
+
 $$P(a_{N-1})=a_N(a_N+d_1)\cdots(a_N+(k-1)d_1)=P(a_N-d_1).$$ 
 
 $P$ is strictly increasing in $-d<x<\infty$, so $a_{N-1}=a_N-d_1$. The end.
