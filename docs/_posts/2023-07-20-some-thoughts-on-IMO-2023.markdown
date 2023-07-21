@@ -93,7 +93,8 @@ I first checked the case for when $a_n$ was a sequence of only two terms. For so
 
 What if I gave it three terms instead, so that $P(a)=b, P(b)=c, P(c)=a$? With algebra omitted, 
 
-$$P(x)=x^2-(a+b+c)x+(ab+bc+ca)$$ 
+$$P(x)=x^2-(a+b+c)x+(ab+bc+ca)$$
+
 is a polynomial that works.
 
 Okay, now we have some substance: condition 2 is necessary to force $a_n$ to be positive. But $a_n$ being periodic definitely doesn't work for $k=3$.
