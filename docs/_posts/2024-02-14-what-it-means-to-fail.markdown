@@ -2,7 +2,7 @@
 layout: post
 title:  "Opinions - What it means to fail"
 author: Hu Man Keat
-date:   2024-01-10
+date:   2024-02-14
 categories: opinions
 image: false
 description: Is it still worthwhile to teach platitudes?
